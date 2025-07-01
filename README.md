@@ -208,9 +208,9 @@ PUT /tasks/6864044845dfef0184859988
 5. **Delete Task:** DELETE `/tasks/{id}`
 
 ### Flow 2: Error Handling Test
-1. **Invalid Create:** POST `/api/tasks` with empty body (should return validation error)
-2. **Invalid ID:** GET `/api/tasks/invalid-id` (should return format error)
-3. **Not Found:** GET `/api/tasks/65f123abc456def789012999` (should return 404)
+1. **Invalid Create:** POST `/tasks` with empty body (should return validation error)
+2. **Invalid ID:** GET `/tasks/invalid-id` (should return format error)
+3. **Not Found:** GET `/tasks/65f123abc456def789012999` (should return 404)
 
 
 ## 🔧 .env File Details
